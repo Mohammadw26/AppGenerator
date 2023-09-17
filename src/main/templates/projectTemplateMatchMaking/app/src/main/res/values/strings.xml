@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+
+    <string name="map_api_key">AIzaSyDVJKmGd15heeuT9jSfKRtke4VqfRnjAxY</string>
+
+
+    <string name="add_title">Add your service</string>
+    <string name="title_hint">Title</string>
+    <string name="description_hint">Description</string>
+    <string name="address_hint">Address</string>
+    <string name="phone_hint">Phone No</string>
+    <string name="email_hint">Email</string>
+    <string name="starting_price_hint">Starting price</string>
+    <string name="maximum_price_hint">Maximum price</string>
+
+
+    <string name="add_new_btn">ADD NEW SERVICE</string>
+    <string name="see_map_btn">SEE SERVICES (MAP)</string>
+    <string name="see_list_btn">SEE SERVICES (LIST)</string>
+
+
+    <string name="users_collection">application_users</string>
+    <string name="data_collection">application_services</string>
+    <string name="requests_collection">application_requests</string>
+    <string name="myreminderss_collection">application_myreminders</string>
+    <string name="allreminderss_collection">application_allreminders</string>
+
+    <string name="messages_realtime">application_messages</string>
+    <string name="images_storage">application_images</string>
+
+
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+
+
+    <string name="detail_page_title">User and Service Detail page</string>
+    <string name="title_activity_answers">AnswersActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string-array name="request_types">
+        <item>Food</item>
+        <item>Vaccines</item>
+        <item>Washing</item>
+        <item>Day stroll</item>
+        <item>Other</item>
+    </string-array>
+</resources>

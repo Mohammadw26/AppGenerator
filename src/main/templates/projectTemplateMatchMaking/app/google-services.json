@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "865539438904",
+    "firebase_url": "https://sitter-services-default-rtdb.firebaseio.com",
+    "project_id": "sitter-services",
+    "storage_bucket": "sitter-services.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865539438904:android:2ca283e312a90a4e3369cd",
+        "android_client_info": {
+          "package_name": "com.mobileapp.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865539438904-b4jsf5pj74e4c5jj4qihfepjvl407cdt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8a5m2QO0KpG2DdJ4B227l4iWGdQoMtbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865539438904-b4jsf5pj74e4c5jj4qihfepjvl407cdt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
