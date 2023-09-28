@@ -1,21 +1,24 @@
 
+Â
+java:S6539"ŸSplit this â€œMonster Classâ€ into smaller and more specialized ones to reduce its dependencies on other classes from 21 to the maximum authorized 20 or less.(ùòéÿÿÿÿÿ8çô¨Š­1
+h
+java:S1192t"FDefine a constant instead of duplicating this literal "Error" 3 times.(Îªşÿÿÿÿÿ8èô¨Š­1
 7
-java:S1220""Move this file to a named package.8ˆ“Ãû¨1
+java:S1220""Move this file to a named package.8Ë«Õõ©1
 g
-java:S2095ã"DUse try-with-resources or close this "Stream" in a "finally" clause.(ôÂ³ûúÿÿÿÿ8²ë°ü¨1
+java:S2095’"DUse try-with-resources or close this "Stream" in a "finally" clause.(ôÂ³ûúÿÿÿÿ8¦õ¨Š­1
 b
-java:S2095Ã"DUse try-with-resources or close this "Stream" in a "finally" clause.(ù©‰€8ßÈúû¨1
+java:S2095ò"DUse try-with-resources or close this "Stream" in a "finally" clause.(ù©‰€8¦õ¨Š­1
+‰
+java:S1450"lRemove the "appointmentSchedulingCheckBox" field and declare it as a local variable in the relevant methods.(Å»–£8©õ¨Š­1
 ‚
-java:S1450"`Remove the "buttonColorPicker" field and declare it as a local variable in the relevant methods.(‹¡ÿ£ÿÿÿÿÿ8áÈúû¨1
+java:S1450"`Remove the "buttonColorPicker" field and declare it as a local variable in the relevant methods.(‹¡ÿ£ÿÿÿÿÿ8¢ƒ¦Š­1
 z
-java:S1450"]Remove the "generateButton" field and declare it as a local variable in the relevant methods.(åéóù8áÈúû¨1
-]	java:S125"<This block of commented-out lines of code should be removed.(§æ¤ûÿÿÿÿ8£˜’ü¨1
-X	java:S1253"<This block of commented-out lines of code should be removed.(øèÌ½8¢ÿü¨1
-]	java:S125?"<This block of commented-out lines of code should be removed.(ÜßÓüÿÿÿÿ8¢ÿü¨1
-]	java:S125Q"<This block of commented-out lines of code should be removed.(¥Š–½ÿÿÿÿÿ8ßÏ’ü¨1
-L	java:S106j"+Replace this use of System.err by a logger.(ä×ßÎşÿÿÿÿ8õÈúû¨1
-L	java:S106}"+Replace this use of System.out by a logger.(±Äôãùÿÿÿÿ8öÈúû¨1
+java:S1450"]Remove the "generateButton" field and declare it as a local variable in the relevant methods.(åéóù8¢ƒ¦Š­1
+
+java:S1450"bRemove the "matchmakingCheckBox" field and declare it as a local variable in the relevant methods.(æŒò8ªõ¨Š­1
+M	java:S106Š"+Replace this use of System.err by a logger.(ä×ßÎşÿÿÿÿ8Çõ¨Š­1
+M	java:S106"+Replace this use of System.out by a logger.(±Äôãùÿÿÿÿ8Éõ¨Š­1
 O
-java:S1602",Remove useless curly braces around statement(ßãØàûÿÿÿÿ8÷Èúû¨1
-[
-java:S1068"9Remove this unused "backgroundColorPicker" private field.(§ôûíşÿÿÿÿ8÷Ï’ü¨1
+java:S1602¯",Remove useless curly braces around statement(ßãØàûÿÿÿÿ8Ëõ¨Š­1
+M	java:S106"+Replace this use of System.out by a logger.(×ôğûÿÿÿÿ8Øõ¨Š­1

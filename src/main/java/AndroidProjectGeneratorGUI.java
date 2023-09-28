@@ -26,6 +26,10 @@ public class AndroidProjectGeneratorGUI extends Application {
     private ProgressBar progressBar;
     private File selectedLogo;
     private File selectedGoogleServicesFile; // Store the selected google-services.json file
+    private CheckBox matchmakingCheckBox;
+    private CheckBox appointmentSchedulingCheckBox;
+
+    String templateProjectPath = "";
 
     public static void main(String[] args) {
         launch(args);
@@ -43,8 +47,19 @@ public class AndroidProjectGeneratorGUI extends Application {
         Label appNameLabel = new Label("Enter App Name:");
         appNameTextField = new TextField();
 
+        Label chooseTemplateLabel = new Label("Choose Template:");
+        HBox templateCheckBoxes = new HBox(10); // Horizontal box for checkboxes
+        templateCheckBoxes.setAlignment(Pos.CENTER);
+
+        matchmakingCheckBox = new CheckBox("Matchmaking");
+        appointmentSchedulingCheckBox = new CheckBox("Appointment Scheduling");
+
+        templateCheckBoxes.getChildren().addAll(matchmakingCheckBox, appointmentSchedulingCheckBox);
+
+
         Label buttonColorLabel = new Label("Button Color:");
         buttonColorPicker = new ColorPicker();
+
 
         generateButton = new Button("Generate Project");
         progressBar = new ProgressBar(0);
@@ -53,12 +68,29 @@ public class AndroidProjectGeneratorGUI extends Application {
 
         grid.add(appNameLabel, 0, 0);
         grid.add(appNameTextField, 1, 0);
-        grid.add(buttonColorLabel, 0, 1);
-        grid.add(buttonColorPicker, 1, 1);
-        grid.add(logoPickerButton, 0, 3, 2, 1);
-        grid.add(googleServicesButton, 0, 4, 2, 1);
-        grid.add(generateButton, 0, 5, 2, 1);
-        grid.add(progressBar, 0, 6, 2, 1);
+        grid.add(chooseTemplateLabel, 0, 1, 2, 1);
+        grid.add(templateCheckBoxes, 0, 2, 2, 1);
+        grid.add(buttonColorLabel, 0, 3);
+        grid.add(buttonColorPicker, 1, 3);
+        grid.add(logoPickerButton, 0, 4, 2, 1);
+        grid.add(googleServicesButton, 0, 5, 2, 1);
+        grid.add(generateButton, 0, 6, 2, 1);
+        grid.add(progressBar, 0, 7, 2, 1);
+
+        // Event handlers for the checkboxes
+        matchmakingCheckBox.setOnAction(e -> {
+            if (matchmakingCheckBox.isSelected()) {
+                appointmentSchedulingCheckBox.setSelected(false); // Ensure only one is selected
+                templateProjectPath = "src/main/templates/projectTemplateMatchMaking";
+            }
+        });
+
+        appointmentSchedulingCheckBox.setOnAction(e -> {
+            if (appointmentSchedulingCheckBox.isSelected()) {
+                matchmakingCheckBox.setSelected(false); // Ensure only one is selected
+                templateProjectPath = "src/main/templates/projectTemplateAppointmentScheduling";
+            }
+        });
 
         logoPickerButton.setOnAction(e -> {
             FileChooser fileChooser = new FileChooser();
@@ -98,7 +130,7 @@ public class AndroidProjectGeneratorGUI extends Application {
         Task<Void> task = new Task<Void>() {
             @Override
             protected Void call() throws Exception {
-                String templateProjectPath = "src/main/templates/projectTemplateMatchMaking";
+
 
                 // Check if the template project directory exists
                 File templateProjectDirectory = new File(templateProjectPath);
