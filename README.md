@@ -56,3 +56,13 @@ The implemented approach involves using JavaFX for the user interface, Apache Co
 
 **Estimated Hours Spent :** 21 hours.
 
+### Weeks 3-4
+
+**Summary:**
+established a fundamental framework for an appointment booking feature within an Android application. 
+It encompasses the creation of an activity with a user-friendly interface, featuring a calendar for date selection, a dynamic list of available appointments, and a booking functionality initiated by user interaction. 
+Users can easily browse, select, and confirm appointments, with booked slots being dynamically updated and reflected in the user interface. This code serves as a foundational structure, facilitating the integration of more advanced functionalities and data management systems, such as Firebase, to enable the complete operation of a robust appointment booking system.
+moreover, a change was done in the UI to enable the user to pick which project template he is interested in coding.
+
+**Estimated Hours Spent :** 11 hours.
+
