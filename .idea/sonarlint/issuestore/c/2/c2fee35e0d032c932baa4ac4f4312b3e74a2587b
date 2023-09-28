@@ -1,0 +1,19 @@
+
+l	java:S117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶´Ä¬üÿÿÿÿ
+\
+java:S1659"GDeclare "passwordEt" and all following declarations on a separate line.(ıš·V
+s
+java:S1450"XRemove the "signupBtn" field and declare it as a local variable in the relevant methods.(õ×ªüÿÿÿÿ
+m
+java:S3776'"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(şñÊëÿÿÿÿÿ
+W
+java:S1126‰"AReplace this if-then-else statement by a single return statement.(­—Îw
+]
+java:S1126“"AReplace this if-then-else statement by a single return statement.(¨²‰Àÿÿÿÿÿ
+]
+java:S1126"AReplace this if-then-else statement by a single return statement.(¿­øıÿÿÿÿ
+X
+java:S1126¦"AReplace this if-then-else statement by a single return statement.(®ÿõ±
+3
+java:S1116³"Remove this empty statement.(àÕˆ•
+W	java:S125µ"<This block of commented-out lines of code should be removed.(’úÃãıÿÿÿÿ

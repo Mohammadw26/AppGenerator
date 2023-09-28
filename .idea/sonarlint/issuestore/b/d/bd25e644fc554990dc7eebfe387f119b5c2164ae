@@ -1,0 +1,31 @@
+
+u
+java:S1104	"_Make STORAGE_PERMISSIONS a static final constant or non-public and provide accessors if needed.(Õ­Ìî
+v
+java:S1104"`Make LOCATION_PERMISSIONS a static final constant or non-public and provide accessors if needed.(Ò·˜î
+t
+java:S1104"YMake LOCATION_CODE a static final constant or non-public and provide accessors if needed.(´ö¤Êùÿÿÿÿ
+s
+java:S1104"XMake STORAGE_CODE a static final constant or non-public and provide accessors if needed.(° —ùÿÿÿÿ
+O
+java:S1444	"9Make this "public static STORAGE_PERMISSIONS" field final(Õ­Ìî
+P
+java:S1444":Make this "public static LOCATION_PERMISSIONS" field final(Ò·˜î
+N
+java:S1444"3Make this "public static LOCATION_CODE" field final(´ö¤Êùÿÿÿÿ
+M
+java:S1444"2Make this "public static STORAGE_CODE" field final(° —ùÿÿÿÿ
+t
+java:S3008	"^Rename this field "STORAGE_PERMISSIONS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ­Ìî
+u
+java:S3008"_Rename this field "LOCATION_PERMISSIONS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò·˜î
+s
+java:S3008"XRename this field "LOCATION_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ö¤Êùÿÿÿÿ
+r
+java:S3008"WRename this field "STORAGE_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(° —ùÿÿÿÿ
+3
+java:S2386	"Make this member "protected".(Õ­Ìî
+3
+java:S2386"Make this member "protected".(Ò·˜î
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ôƒ½ÿÿÿÿÿ
